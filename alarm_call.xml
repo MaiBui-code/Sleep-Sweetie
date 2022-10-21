@@ -1,0 +1,98 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!-- 
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc 		
+	 *	@file 		schedule
+	 *	@date 		Monday 10th of October 2022 08:32:53 PM
+	 *	@title 		Sleep (Screens)
+	 *	@author 	
+	 *	@keywords 	
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<ScrollView android:id="@+id/alarm_call" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" >
+
+		<RelativeLayout android:id="@+id/content_container" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" >
+
+
+			<RelativeLayout
+				android:id="@+id/page_alarm_call_ek1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__alarm_call_ek2"
+					android:layout_width="385dp"
+					android:layout_height="896dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__alarm_call_ek2_shape" />
+
+
+				<ImageView
+					android:id="@+id/image_7"
+					android:layout_width="wrap_content"
+					android:layout_height="match_parent"
+					android:layout_alignParentBottom="true"
+					android:layout_marginStart="1dp"
+					android:layout_marginBottom="0dp"
+					android:contentDescription="image_7"
+					android:src="@drawable/image_7" />
+
+				<RelativeLayout
+					android:id="@+id/status_bar_ek2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp">
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/sweetie"
+					android:layout_width="400dp"
+					android:layout_height="151dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="1dp"
+					android:layout_marginTop="224dp"
+					android:gravity="center"
+					android:text="@string/sweetie_string"
+					android:textColor="@color/sweetie_color"
+					android:textSize="70sp" />
+
+				<ImageView
+					android:id="@+id/screen_shot_2022_09_22_at_9_15_1"
+					android:layout_width="126dp"
+					android:layout_height="120dp"
+					android:layout_marginStart="247dp"
+					android:layout_marginTop="738dp"
+					android:contentDescription="screen_shot_2022_09_22_at_9_15_1"
+					android:src="@drawable/screen_shot_2022_09_22_at_9_15_1" />
+
+				<ImageView
+					android:id="@+id/screen_shot_2022_09_22_at_9_17_1"
+					android:layout_width="142dp"
+					android:layout_height="120dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="738dp"
+					android:contentDescription="screen_shot_2022_09_22_at_9_17_1"
+					android:src="@drawable/screen_shot_2022_09_22_at_9_17_1" />
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>
