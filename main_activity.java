@@ -23,17 +23,23 @@ package exportkit.figma;
 import java.util.Calendar;
 import java.util.Formatter;
 import android.app.Activity;
+import android.app.TimePickerDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+
+import java.util.Locale;
 import java.util.Timer;
 import java.util.TimerTask;
 
 
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.TimePicker;
 
-public class main_activity extends Activity {
+	public class main_activity extends Activity {
 
 	
 	private View _bg__main_ek2;
@@ -43,6 +49,7 @@ public class main_activity extends Activity {
 	private ImageView sun;
 	private ImageView moon;
 	private ImageView status_bar;
+
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -57,7 +64,6 @@ public class main_activity extends Activity {
 		time = (TextView) findViewById(R.id.time);
 		sun = (ImageView) findViewById(R.id.sun);
 		moon = (ImageView) findViewById(R.id.moon);
-		status_bar = (ImageView) findViewById(R.id.status_bar);
 
 		//create the interval to run the functions after each seconds
 		TimerTask task = new TimerTask() {
@@ -124,7 +130,4 @@ public class main_activity extends Activity {
 	}
 
 
-
-
 }
-
